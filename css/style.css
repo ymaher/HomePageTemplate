@@ -1,0 +1,157 @@
+html,body{
+	height: 100%;
+	margin:0;
+	font-size: 16px;
+	font-family: "lato"; sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+
+.simg{
+	background-image:url('../img/image1.jpg');
+	min-height: 100%;
+
+}
+
+.simg2{
+	background-image:url('../img/image2.jpg');
+	min-height: 500px;
+
+}
+
+.simg3{
+	background-image:url('../img/image3.jpg');
+	min-height: 500px;
+
+}
+.simg, .simg2, .simg3{
+	position: relative;
+	opacity: ;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+}
+
+.section{
+	
+	text-align: center;
+	padding: 5px 0px;
+		
+}
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+	height:;
+}
+.section-dark{
+	background-color: #232e34;
+	color: #666;
+}
+.stext{
+	position: absolute;
+	top:50%;
+	width:100%;
+	text-align: center;
+	color: black;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;	
+	opacity: 0.70;
+}
+
+/* navigation */
+#menu{
+	position: fixed;
+	width: 100%;
+	opacity: 0.80;
+}
+#left-option{
+	height: 30px;
+	width: 40%;	
+	background-color: #222;
+	border-radius: 0px 20px 20px 0px;
+	float: left;
+}
+#right-option{
+	height: 30px;
+	width: 40%;
+	background-color: #222;
+	border-radius: 20px 0px 0px 20px;
+	float: right;
+}
+a{
+	font-family: arial black;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin-left: 120px;
+}
+/*#username, #pass{
+	color: #020202;
+	opacity: 0.50;
+	padding: 6px;
+	text-align: center;
+	margin-top: 20px;	
+}
+.naving{
+	min-height: 50px;
+	width: 100%;
+	background-color: transparent;
+	
+
+}
+.login{
+	
+	width:50%;
+	float: left;
+	
+	height: auto;
+	}
+
+.nav-bar{
+	
+	opacity: 0.80;
+	width: 50%;
+	float: left;
+	height: auto;
+	
+	
+}
+#nav_wrapper ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#nav_wrapper a{
+color: white;
+text-decoration: none;
+}
+
+#nav_wrapper ul li:hover{
+	background-color: #0f1011;
+	transition: all 0.45s;
+}*/
+/* navigation end  */
+
+.stext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.stext .border.trans{
+	background-color: transparent;
+}
+
+@media(max-width: 568px){
+	.simg, .simg2, .simg3{
+		background-attachment: scroll;
+	}
+}
